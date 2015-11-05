@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+inline void fastRead(int n,std::vector<int> &input)
+{
+	for (int i = 0; i < n; ++i)
+	{
+		int sign=1;
+		register char c=0;
+		while(c<'0' || c>'9')
+		{
+			c=getchar_unlocked();
+			if (c=='-')
+			{
+				sign=-1; c=getchar_unlocked();
+			}
+			else
+				sign=1;
+		}
+
+		int x=0;
+		do
+		{
+			x=(x<<3)+(x<<1)+c-'0';
+		} while((c=getchar_unlocked())>='0' && c<='9');
+
+		input.push_back(x*sign);
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fastread</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

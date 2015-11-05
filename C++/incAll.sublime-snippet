@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+//setbase - cout << setbase (16); cout << 100 << endl; Prints 64
+//setfill - cout << setfill ('x') << setw (5); cout << 77 << endl; prints xxx77
+//setprecision - cout << setprecision (4) << f << endl; Prints x.xxxx
+#include <iostream>
+#include <string>
+#include <climits>
+#include <cstdio>
+#include <cstdlib>
+#include <cmath>
+#include <vector>
+#include <algorithm>
+#include <utility>
+#include <queue>
+#include <stack>
+#include <map>
+#include <set>
+#include <cstring>
+using namespace std;
+#define PR(x) cout << #x " = " << x << "\n";
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>incAll</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

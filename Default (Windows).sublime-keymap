@@ -1,0 +1,4 @@
+[
+	{ "keys": ["alt+e"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+	{ "keys": ["alt+shift+e"], "command": "move", "args": {"by": "subword_ends", "forward": false} }
+]
