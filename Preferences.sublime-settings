@@ -1,5 +1,6 @@
 {
 	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/colour-scheme/Monokai.tmTheme",
 	"draw_white_space": "all",
 	"font_size": 9,
 	"highlight_line": true,
@@ -7,6 +8,11 @@
 	"ignored_packages":
 	[
 		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
 	],
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true
