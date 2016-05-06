@@ -1,4 +1,5 @@
 [
 	{ "keys": ["alt+e"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
-	{ "keys": ["alt+shift+e"], "command": "move", "args": {"by": "subword_ends", "forward": false} }
+	{ "keys": ["alt+shift+e"], "command": "move", "args": {"by": "subword_ends", "forward": false} },
+    { "keys": ["ctrl+alt+shift+d"], "command": "find_all_under" } // replacement of alt+f3
 ]

@@ -1,0 +1,14 @@
+// See this link for description of options
+// https://github.com/DamnWidget/anaconda/blob/master/Anaconda.sublime-settings
+{
+    "anaconda_linting_behaviour": "always",
+    "anaconda_linter_delay": 1.0,
+    "auto_formatting_timeout": 5.0,
+    "hide_snippets_on_completion": true,
+    "enable_signature_tooltips": false,
+    "enable_docstrings_tooltip": false,
+    "auto_python_builder_enabled": false,
+    "display_signatures": false,
+    "anaconda_linter_mark_style": "none",
+    "anaconda_linter_underlines": true
+}

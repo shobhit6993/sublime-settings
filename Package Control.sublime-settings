@@ -6,11 +6,14 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"Anaconda",
+		"AutoDocstring",
 		"C++ Starting Kit",
 		"DocBlockr",
 		"Package Control",
 		"PackageResourceViewer",
 		"SideBarEnhancements",
-		"SublimeAStyleFormatter"
+		"SublimeAStyleFormatter",
+		"Theme - Soda"
 	]
 }
